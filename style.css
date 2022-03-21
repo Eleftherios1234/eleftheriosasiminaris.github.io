@@ -29,6 +29,17 @@ header {
   background-color: black;
 }
 
+header nav ul {
+    display: flex;  /* makes nav list horizontal */ 
+    float: left; /* keeps list on the left */
+}
+
+nav li {
+    padding-left: 3.5rem;
+    display: inline-block; /* makes nav li elements appear without dot points */
+}
+
+
 .main-title {
     display: flex;
     flex-direction: column;
@@ -82,15 +93,28 @@ header {
     
 }
 
-header nav ul {
-    display: flex;  /* makes nav list horizontal */ 
-    float: left; /* keeps list on the left */
+.project-container {
+        float: left;
+        width: 12%;
+        padding: 10px;
+        margin: 50px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+} 
+
+.project1 {
+    background: white;
 }
 
-nav li {
-    padding-left: 3.5rem;
-    display: inline-block; /* makes nav li elements appear without dot points */
+.project2 {
+    background: white;
 }
+
+.project3 {
+    background: white;
+}
+
 
 footer {
     color: white;
