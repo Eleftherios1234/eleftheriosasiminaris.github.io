@@ -11,9 +11,10 @@ html {
     font-size: 16px;
 }
 
+/* a refers to texts with hyperlinks references */
 a {
-    text-decoration: none;
-    color: white;
+    text-decoration: none; /* removes hyperlink underline */
+    color: white; /* removes purple hyperlink text color */
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     font-size: 20px;
