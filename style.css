@@ -1,5 +1,12 @@
 html {
     background-color: white;
+    /* fills entire background with an image */
+    background: url(images/background2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* end */
     font-family:'Times New Roman', Times, serif;
     font-size: 16px;
 }
@@ -10,11 +17,64 @@ header {
   width: 100%; /*stretches nav box element to whole page */
   border-bottom: solid 1px #c6c1c1;
   background-color: rgb(134, 227, 255);
-}   
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+
+.main-title h2 {
+    padding: .55rem 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+
+}
+.job-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+    
+}
+
+.job-title h3 {
+    font-size: 2rem;
+    letter-spacing: .5px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    color: white;
+}
+
+.showcase h3 {
+    border: 2px white solid;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    
+}
 
 header nav ul {
     display: flex;  /* makes nav list horizontal */ 
-    float: left;
+    float: left; /* keeps list on the left */
 }
 
 nav li {
@@ -22,6 +82,18 @@ nav li {
     display: inline-block; /* makes nav li elements appear without dot points */
 }
 
+footer {
+    color: white;
+    background-color: #7c7979;
+    font-size: .8rem;
+    text-align: center;
+    /* sends footer to bottom of page */ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
 
 
 
