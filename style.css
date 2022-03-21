@@ -11,12 +11,21 @@ html {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
 header { 
   position: fixed;
   z-index: 100;
   width: 100%; /*stretches nav box element to whole page */
-  border-bottom: solid 1px #c6c1c1;
-  background-color: rgb(134, 227, 255);
+  border-bottom: solid 3px #c56525;
+  background-color: black;
 }
 
 .main-title {
@@ -84,9 +93,10 @@ nav li {
 
 footer {
     color: white;
-    background-color: #7c7979;
+    background-color: black;
     font-size: .8rem;
     text-align: center;
+    border-top: 3px solid #c56525;
     /* sends footer to bottom of page */ 
     position: absolute;
     bottom: 0;
