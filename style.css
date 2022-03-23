@@ -21,6 +21,14 @@ a {
 
 }
 
+/* nav items appear orange when hovered over + light gray background */
+a:hover {
+    text-decoration: none;
+    color:#c56525;
+    background-color: lightgray;
+
+}
+
 header { 
   position: fixed;
   z-index: 100;
